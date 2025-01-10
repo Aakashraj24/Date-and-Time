@@ -7,7 +7,7 @@ let hourBox = document.querySelector('.hour')
 let minutesBox = document.querySelector('.minutes')
 let secondBox = document.querySelector('.second')
 let amPM = document.querySelector('.apb')
-
+let sesson = 'AM'
 //  Creating Array for months Name
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
@@ -69,7 +69,7 @@ function dateAndTimeUpdater() {
 
 
     // setting AM or PM
-    amPM.innerHTML = hour > 12 ? 'AM' : 'PM'
+    amPM.innerHTML = sesson = hour < 12 ? 'AM' : 'PM'
 
 }
 setInterval(dateAndTimeUpdater, 100)
