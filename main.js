@@ -49,9 +49,14 @@ function dateAndTimeUpdater() {
 
     //geting Latasr Hour from local or current dateTime()
     let hour = date.getHours();
+    
+    // setting AM or PM
+    amPM.innerHTML = sesson = hour < 12 ? 'AM' : 'PM'
+    
     // Setting hour formate in 12 hour
-    hour = hour == 13 ? hour + 12 : hour;
     hour = hour > 13 ? hour - 12 : hour;
+    // setting hour for mornig time
+    hour = hour == 0 ? hour + 12 : hour;
     // Setting in html
     hourBox.innerHTML = hour = hour < 10 ? '0' + hour : hour;
 
@@ -67,10 +72,6 @@ function dateAndTimeUpdater() {
     let sec = date.getSeconds();
     // Setting in html
     secondBox.innerHTML = sec = sec < 10 ? '0' + sec : sec;
-
-
-    // setting AM or PM
-    amPM.innerHTML = sesson = hour < 12 ? 'AM' : 'PM'
 
 }
 setInterval(dateAndTimeUpdater, 100)
