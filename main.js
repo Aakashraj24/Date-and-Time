@@ -50,7 +50,7 @@ function dateAndTimeUpdater() {
     //geting Latasr Hour from local or current dateTime()
     let hour = date.getHours();
     // Setting hour formate in 12 hour
-    hour = hour = 13 ? hour + 12 : hour;
+    hour = hour == 13 ? hour + 12 : hour;
     hour = hour > 13 ? hour - 12 : hour;
     // Setting in html
     hourBox.innerHTML = hour = hour < 10 ? '0' + hour : hour;
