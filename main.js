@@ -54,7 +54,7 @@ function dateAndTimeUpdater() {
     amPM.innerHTML = sesson = hour < 12 ? 'AM' : 'PM'
     
     // Setting hour formate in 12 hour
-    hour = hour > 13 ? hour - 12 : hour;
+    hour = hour > 12 ? hour - 12 : hour;
     // setting hour for mornig time
     hour = hour == 0 ? hour + 12 : hour;
     // Setting in html
