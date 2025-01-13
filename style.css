@@ -47,7 +47,7 @@ div span {
     width: 50px;
     background-color: #dcdcdc;
     letter-spacing: 2px;
-    padding: 5px;  
+    padding: 5px 15px;  
     font-size: 50px;
 
 }
@@ -73,7 +73,7 @@ div span {
 }
 
 .am-pm {
-    width: 40px;
+    width: 60px;
     background-color: #dcdcdc;
     padding: 5px 10px;
     font-size: 50px;
