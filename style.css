@@ -14,9 +14,9 @@ body{
     background-color: #9d9898;
 }
 .dateAndTime{
-    width: 500px;
-    padding: 10px;
-    scale: 0.96;
+    width: 490px;
+    padding: 40px;
+    scale: 0.90;
     display: flex;
     background: transparent;
     border: 2px dashed #fff;
@@ -69,19 +69,22 @@ div span {
     font-size: 20px;
     scale: 0.50;
     font-weight: bold;
-    margin-top: 0px;
+    margin-top: -20px;
 }
 
 .am-pm {
     width: 50px;
     background-color: #dcdcdc;
-    padding: 5px 4px;
+    padding: 5px 6px;
     font-size: 50px;
-
-
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 .cdate{
     font-size: 30px;
+    width: 470px;
 }
 .space{
     width: 20px;
@@ -92,14 +95,14 @@ div span {
     height: 60px;
 }
 .day{
-    width: 120px;
+    width: 150px;
     text-align: center;
 }
 .month{
     text-align: center;
-    width: 120px;
+    width: 150px;
 }
 .year{
     text-align: center;
-    width: 60px;
+    width: 80px;
 }
