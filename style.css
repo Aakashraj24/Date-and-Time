@@ -14,9 +14,9 @@ body{
     background-color: #9d9898;
 }
 .dateAndTime{
-    width: 490px;
+    max-width: 500px;
     padding: 40px;
-    scale: 0.90;
+    scale: 0.60;
     display: flex;
     background: transparent;
     border: 2px dashed #fff;
@@ -38,7 +38,7 @@ body{
 .cdate{
     padding: 10px;
     background-color: #fff;
-    margin: 5px auto;
+    /* margin: 5px auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,8 +110,8 @@ div span {
 .cdate{
     font-size: 30px;
     width: 490px;
-    position: relative;
-    right: 8px;
+    /* position: relative;
+    right: 8px; */
 }
 .space{
     width: 20px;
